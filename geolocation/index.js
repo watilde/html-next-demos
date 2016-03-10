@@ -9,7 +9,7 @@
 		var lat = position.coords.latitude;
 		var lng = position.coords.longitude;
 		var accuracy = Math.floor(position.coords.accuracy);
-		document.getElementById("accuracy").innerHTML("accuracy: " + accuracy + "m");
+		document.getElementById("accuracy").innerHTML = "accuracy: " + accuracy + "m";
 
 		setMap(lat, lng);
 	}
